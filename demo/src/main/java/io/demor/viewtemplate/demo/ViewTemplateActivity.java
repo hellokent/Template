@@ -51,7 +51,7 @@ public class ViewTemplateActivity extends Activity {
     }
 
     public void show(View view) {
-        Root node = Utils.Xml.parseString(mTemplateText.getText(), Root.class);
+        final Root node = Utils.Xml.parseString(mTemplateText.getText(), Root.class);
 
         if (node == null){
             Toast.makeText(this, " parse failed ", Toast.LENGTH_SHORT).show();
