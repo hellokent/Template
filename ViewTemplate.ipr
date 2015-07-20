@@ -67,6 +67,9 @@
   <component name="ProjectType">
     <option name="id" value="Android" />
   </component>
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+  </component>
   <component name="libraryTable">
     <library name="appcompat-v7-22.2.1">
       <ANNOTATIONS>
